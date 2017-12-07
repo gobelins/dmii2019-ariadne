@@ -7,7 +7,7 @@
   <meta name="author" content="Solenne RELISIEUX, Hélène STARK, Mélanie SAMEDI, Thanh-Binh TANG">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ariadne</title>
-  <link rel="icon" type="image/png" href="./assets/img/favicon.png" />  
+  <link rel="icon" type="image/png" href="./assets/img/favicon.png" />
 </head>
 <body>
 
@@ -35,7 +35,7 @@
       <img src="./assets/img/logo_gobelins.png" alt="Gobelins"  />
       <p>Une expérience réalisée par Solenne Relisieux, Mélanie Samedi, Hélène Starck et Thanh Binh Tang, élèves en DMII 2018 à Gobelins.</p>
     </div>
-    
+
     <div class="end-share-wrapper">
       <button class="text-share">facebook</button>
       <button class="text-share">twitter</button>
@@ -78,24 +78,24 @@
         <div class="artist-details-content">
           <h1 id="name-json2" class="artist-name"></h1>
           <!-- <span id="description-json" class="description-artist"></span> -->
-        
+
           <div class="album">
             <div class="pink-block">
               <span id="album-date-json" class="released-date"></span>
               <div class="album-image">
                 <img id="album-image-json" src="#" alt="Album" />
               </div>
-  
+
               <h4 id="album-title-json" class="album-title"></h4>
             </div>
-  
+
             <div class="album-description">
               <h2 id="id-json"></h2>
               <p id="album-intro-json" class="album-intro"></p>
               <p id="album-text-json" class="album-text"></p>
             </div>
           </div>
-  
+
           <div class="concert-wrapper">
             <h3>concert</h3>
             <div class="concert-dates">
@@ -105,11 +105,11 @@
             </div>
           </div>
         </div>
-  
+
         <div class="share-wrapper">
           <div class="share-content">
             <h3>partage</h3>
-  
+
             <div class="share-btns">
               <button class="share-btn facebook-btn">
                 <div class="svg-share-btn">
@@ -122,14 +122,14 @@
                     <clipPath id="SVGID_2_">
                       <use xlink:href="#SVGID_1_"  overflow="visible"/>
                     </clipPath>
-                    
+
                     <line clip-path="url(#SVGID_2_)" fill="none" stroke="#202C54" stroke-width="2" stroke-linecap="round" x1="1" y1="2.5" x2="34.9" y2="2.5"/>
                   </g>
                 </svg>
               </div>
               <span>facebook</span>
               </button>
-  
+
               <button class="share-btn twitter-btn">
                 <div class="svg-share-btn">
                   <svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -141,7 +141,7 @@
                     <clipPath id="SVGID_2_">
                       <use xlink:href="#SVGID_1_"  overflow="visible"/>
                     </clipPath>
-                    
+
                     <line clip-path="url(#SVGID_2_)" fill="none" stroke="#202C54" stroke-width="2" stroke-linecap="round" x1="1" y1="2.5" x2="34.9" y2="2.5"/>
                   </g>
                 </svg>
@@ -151,7 +151,7 @@
             </div>
           </div>
         </div>
-  
+
       </div>
 
       <div class="artist-wrapper-close">
@@ -165,8 +165,8 @@
                   <use xlink:href="#a" overflow="visible"/>
                 </clipPath>
                 <path clip-path="url(#b)" fill="none" stroke="#FFF" stroke-width="2" stroke-linecap="round" d="M36.9 5H3"/>
-              </svg>           
-           
+              </svg>
+
                 <span>fermer</span>
             </button>
           </div>
@@ -195,7 +195,29 @@
   <section id="teleportation-transition">
   </section>
 
-  <button id="sound">sound</button>  
+  <button id="sound">sound</button>
 
-<script type="text/javascript" src="manifest.0e9acd2e0d759a7b7147.js"></script><script type="text/javascript" src="vendor.5f7a5e665b24e8548961.js"></script><script type="text/javascript" src="bundle.e727b956f904503bed23.js"></script></body>
+<script type="text/javascript" src="manifest.0e9acd2e0d759a7b7147.js"></script><script type="text/javascript" src="vendor.5f7a5e665b24e8548961.js"></script><script type="text/javascript" src="bundle.e727b956f904503bed23.js"></script>
+<script src="javascript/bundle.js"></script>
+
+<!-- analytics -->
+-
+<script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    //marqueur Gobelins projets
+    ga('create', 'UA-34423251-3', 'auto', 'gobelins');
+    // dimensions personnalisées
+    ga('gobelins.set', 'dimension2', 'etudiant-design-interactif-web');
+    ga('gobelins.set', 'dimension3', 'DMII');
+    ga('gobelins.set', 'dimension5', 'WebGL Asterios');
+    ga('gobelins.set', 'dimension5', 'Ariadne'); 
+    ga('gobelins.set', 'dimension7', '2019');
+    ga('gobelins.set', 'dimension8', '2017-12-08');
+    ga('gobelins.send', 'pageview');
+</script>
+</body>
 </html>
